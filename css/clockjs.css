@@ -44,7 +44,53 @@ body .clock{
 .clock .number9{--rotation:270deg;}
 .clock .number10{--rotation:300deg;}
 .clock .number11{--rotation:330deg;}
-
+.clock .one{
+    transform:rotate(calc(var(--rotation)-30deg)); 
+    margin: 0;           
+}
+.clock .two{
+    transform:rotate(calc(var(--rotation)-60deg)); 
+    margin: 0;           
+}
+.clock .three{
+    transform:rotate(calc(var(--rotation)-90deg)); 
+    margin: 0;           
+}
+.clock .fourspan{
+    transform:rotate(calc(var(--rotation)-120deg));
+    display:block;            
+}
+.clock .fivespan{
+    transform:rotate(calc(var(--rotation)-150deg));
+    display:block;            
+}
+.clock .six{
+    transform:rotate(calc(var(--rotation)-180deg)); 
+    margin: 0;           
+}
+.clock .seven{
+    transform:rotate(calc(var(--rotation)-210deg)); 
+    margin: 0;           
+}
+.clock .eight{
+    transform:rotate(calc(var(--rotation)-240deg));
+    margin:0;         
+}
+.clock .nine{
+    transform:rotate(calc(var(--rotation)-270deg)); 
+    margin: 0;           
+}
+.clock .ten{
+    transform:rotate(calc(var(--rotation)-300deg)); 
+    margin: 0;           
+}
+.clock .eleven{
+    transform:rotate(calc(var(--rotation)-330deg)); 
+    margin: 0;           
+}
+.clock .twelve{
+    margin:0;
+}
 .clock::after{
 content: '' ;
 position: absolute;
