@@ -19,7 +19,7 @@ body .clock{
     height: 300px;
     background-color:#000;
     color: #fff;
-    border:3px solid var(--col);
+    border:5px solid var(--col);
     border-radius: 50%;
     position: relative;
     font-size: 1.5rem;
@@ -32,7 +32,7 @@ body .clock{
     text-align: center;
     transform:rotate(var(--rotation)) ;
 }
-.clock .number12{--rotation:0deg;}
+/* .clock .number12{--rotation:0deg;}
 .clock .number1{--rotation:30deg;}
 .clock .number2{--rotation:60deg;}
 .clock .number3{--rotation:90deg;}
@@ -43,49 +43,49 @@ body .clock{
 .clock .number8{--rotation:240deg;}
 .clock .number9{--rotation:270deg;}
 .clock .number10{--rotation:300deg;}
-.clock .number11{--rotation:330deg;}
+.clock .number11{--rotation:330deg;} */
 .clock .one{
-    transform:rotate(calc(var(--rotation)-30deg)); 
+    transform:translate(70px,20px);
     margin: 0;           
 }
 .clock .two{
-    transform:rotate(calc(var(--rotation)-60deg)); 
+    transform:translate(120px,70px);
     margin: 0;           
 }
 .clock .three{
-    transform:rotate(calc(var(--rotation)-90deg)); 
+    transform:translate(130px,135px);
     margin: 0;           
 }
 .clock .fourspan{
-    transform:rotate(calc(var(--rotation)-120deg));
+    transform:translate(120px,205px);
     display:block;            
 }
 .clock .fivespan{
-    transform:rotate(calc(var(--rotation)-150deg));
+    transform:translate(70px,255px);
     display:block;            
 }
 .clock .six{
-    transform:rotate(calc(var(--rotation)-180deg)); 
+    transform:translate(0px,275px); 
     margin: 0;           
 }
 .clock .seven{
-    transform:rotate(calc(var(--rotation)-210deg)); 
+    transform:translate(-70px,255px);
     margin: 0;           
 }
 .clock .eight{
-    transform:rotate(calc(var(--rotation)-240deg));
+    transform:translate(-120px,205px);
     margin:0;         
 }
 .clock .nine{
-    transform:rotate(calc(var(--rotation)-270deg)); 
+    transform:translate(-130px,135px);
     margin: 0;           
 }
 .clock .ten{
-    transform:rotate(calc(var(--rotation)-300deg)); 
+    transform:translate(-120px,70px);
     margin: 0;           
 }
 .clock .eleven{
-    transform:rotate(calc(var(--rotation)-330deg)); 
+    transform:translate(-70px,20px);
     margin: 0;           
 }
 .clock .twelve{
